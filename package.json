@@ -1,0 +1,22 @@
+{
+  "name": "mygasbackend",
+  "version": "1.0.0",
+  "description": "gas ordering platform",
+
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsaacSichangi/mygasbackend.git"
+  },
+  "keywords": [
+    "gas"
+  ],
+  "author": "isaac sichangi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsaacSichangi/mygasbackend/issues"
+  },
+  "homepage": "https://github.com/IsaacSichangi/mygasbackend#readme"
+}
