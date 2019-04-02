@@ -2,7 +2,6 @@
   "name": "mygasbackend",
   "version": "1.0.0",
   "description": "gas ordering platform",
-
   "scripts": {
     "start": "node ./bin/index.js"
   },
@@ -18,5 +17,15 @@
   "bugs": {
     "url": "https://github.com/IsaacSichangi/mygasbackend/issues"
   },
-  "homepage": "https://github.com/IsaacSichangi/mygasbackend#readme"
+  "homepage": "https://github.com/IsaacSichangi/mygasbackend#readme",
+  "dependencies": {
+    "africastalking": "^0.4.0",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "mysql": "^2.16.0",
+    "nodemailer": "^6.0.0",
+    "validator": "^10.11.0"
+  }
 }
