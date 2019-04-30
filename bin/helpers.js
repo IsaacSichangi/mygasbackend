@@ -16,11 +16,15 @@ const showtext = (res, value)=>{
 
 };
 
+
 const showerror = (res, value)=>{
 
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end(value);
-}
+};
+
+
+
 
 module.exports.showjson = showjson;
 module.exports.showtext = showtext;
